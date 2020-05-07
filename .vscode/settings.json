@@ -1,0 +1,16 @@
+{
+    "python.linting.pylintEnabled": true,
+    "python.linting.enabled": true,
+    "python.pythonPath": "C:\\Users\\Mateus\\AppData\\Local\\Programs\\Python\\Python38-32\\python.exe",
+    "python.testing.unittestArgs": [
+        "-v",
+        "-s",
+        "./crud_example",
+        "-p",
+        "*test.py"
+    ],
+    "python.testing.pytestEnabled": false,
+    "python.testing.nosetestsEnabled": false,
+    "python.testing.unittestEnabled": false,
+    "python.testing.promptToConfigure": false
+}

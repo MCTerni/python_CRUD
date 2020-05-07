@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Delete</title>
+</head>
+<body>
+    <h1>Mateus Carnevalli Terni (040886165)</h1>
+    <form method="post">
+        {% csrf_token %}
+        <h2>Are you sure you want to remove this record?</h2>
+        <button type="submit">Confirm</button>
+    </form>
+</body>
+</html>
